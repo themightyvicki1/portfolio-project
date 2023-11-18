@@ -1,0 +1,25 @@
+:root {
+  --first-color: #eeeeee;
+  --second-color: #acc6aa;
+  --third-color: #71a0a5;
+  --fourth-color: #77628c;
+  --blackish-color: #323643;
+  --whitish-color: #eeeeee;
+}
+
+body {
+  background: #eeeeee;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  color: var(--blackish-color);
+}
+
+h3 {
+  color: var(--fourth-color);
+}
