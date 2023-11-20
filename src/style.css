@@ -13,15 +13,8 @@ body {
   background: #eeeeee;
 }
 h1 {
+  padding-top: 75px;
   color: var(--blackish-color);
   font-weight: bold;
   font-family: var(--primary-font);
-}
-
-h2 {
-  font-family: var(--secondary-font);
-}
-h3 {
-  color: var(--fourth-color);
-  font-family: var(--secondary-font);
 }
