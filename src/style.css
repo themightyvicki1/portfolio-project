@@ -5,21 +5,23 @@
   --fourth-color: #77628c;
   --blackish-color: #323643;
   --whitish-color: #eeeeee;
+  --primary-font: "Raleway", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
 }
 
 body {
   background: #eeeeee;
-  font-family: "DM Sans", sans-serif;
-  font-family: "Manrope", sans-serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "PT Sans", sans-serif;
-  font-family: "Raleway", sans-serif;
 }
 h1 {
   color: var(--blackish-color);
+  font-weight: bold;
+  font-family: var(--primary-font);
 }
 
+h2 {
+  font-family: var(--secondary-font);
+}
 h3 {
   color: var(--fourth-color);
+  font-family: var(--secondary-font);
 }
