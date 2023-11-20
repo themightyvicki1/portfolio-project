@@ -1,20 +1,59 @@
 :root {
-  --first-color: #eeeeee;
+  --first-color: #eaf6f6;
   --second-color: #acc6aa;
   --third-color: #71a0a5;
   --fourth-color: #77628c;
   --blackish-color: #323643;
   --whitish-color: #eeeeee;
-  --primary-font: "Raleway", sans-serif;
-  --secondary-font: "Poppins", sans-serif;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Dosis", sans-serif;
 }
 
 body {
-  background: #eeeeee;
-  padding-top: 75px;
+  background: var(--whitish-color);
+  padding-top: 150px;
 }
-h1 {
+
+/*target the greeting message stored in a div */
+.hero {
+  background-color: var(--second-color);
+  text-align: center;
+  padding: 60px 60px;
+  /*margin auto centered the div, it stopped being centered once i changed the width */
+  margin: auto;
+  width: 700px;
+  border: 2px solid var(--blackish-color);
+}
+
+/* target the h1 (my name) in hero div */
+.hero h1 {
   color: var(--blackish-color);
-  font-weight: bold;
   font-family: var(--primary-font);
+  font-size: 78px;
+}
+
+/*target the h2 Hi I am */
+.hero h2 {
+  font-family: var(--secondary-font);
+  font-size: 30px;
+}
+
+/*target the h3 based in on hero div */
+.hero h3 {
+  font-family: var(--secondary-font);
+  font-size: 22px;
+  font-weight: normal;
+}
+
+/* target the link buttons as a whole */
+.link-buttons {
+  padding-top: 20px;
+  font-family: var(--primary-font);
+}
+
+/* target each link button */
+.link-buttons a {
+  border: 1px solid var(--third-color);
+  background-color: var(--first-color);
+  color: var(--fourth-color);
 }
