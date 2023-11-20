@@ -11,9 +11,9 @@
 
 body {
   background: #eeeeee;
+  padding-top: 75px;
 }
 h1 {
-  padding-top: 75px;
   color: var(--blackish-color);
   font-weight: bold;
   font-family: var(--primary-font);
