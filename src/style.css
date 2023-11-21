@@ -11,7 +11,7 @@
 
 body {
   background: var(--whitish-color);
-  padding-top: 150px;
+  padding-top: 80px;
 }
 
 /*target the greeting message stored in a div */
@@ -49,6 +49,7 @@ body {
 /* target the link buttons as a whole */
 .link-buttons {
   padding-top: 20px;
+  text-transform: capitalize;
 }
 
 /* target each link button */
@@ -56,6 +57,35 @@ body {
   border: 1px solid var(--third-color);
   background-color: var(--first-color);
   color: var(--fourth-color);
+}
+
+/*target the col with words not image as a whole */
+#descriptions {
+  text-align: center;
+}
+
+/*target the launch buttons */
+.btn-branding {
+  border: 1px solid var(--third-color);
+  background-color: var(--first-color);
+  color: var(--fourth-color);
+  font-family: var(--primary-font);
+}
+
+/* target paragraphs about projects on homepage */
+.project-description {
+  font-family: var(--secondary-font);
+}
+
+/* target the project titles on homepage*/
+.project-title {
+  font-family: var(--primary-font);
+}
+
+/*target images on index page */
+.col-sm-6 img:hover {
+  transform: scale(1.5);
+  cursor: zoom-in;
 }
 
 /* target changes made when screen is small*/
@@ -66,7 +96,8 @@ body {
   }
 
   .hero {
-    width: 450px;
+    width: 400px;
+    margin: auto;
   }
   .hero h1 {
     font-size: 36px;
@@ -85,12 +116,14 @@ body {
   .link-buttons a {
     font-size: 12px;
   }
+  .btn-branding {
+    font-size: 12px;
+    margin: auto;
+  }
+
+  body {
+    margin: 0 auto;
+  }
 }
 
-/*target the launch buttons */
-.btn-branding {
-  border: 1px solid var(--third-color);
-  background-color: var(--first-color);
-  color: var(--fourth-color);
-  font-family: var(--primary-font);
-}
+/*text-transform: capitalize; for the nav buttons */
