@@ -48,7 +48,6 @@ body {
 /* target the link buttons as a whole */
 .link-buttons {
   padding-top: 20px;
-  font-family: var(--primary-font);
 }
 
 /* target each link button */
@@ -56,4 +55,18 @@ body {
   border: 1px solid var(--third-color);
   background-color: var(--first-color);
   color: var(--fourth-color);
+}
+
+@media (max-width: 900px) {
+  #descriptions {
+    text-align: center;
+  }
+}
+
+/*target the launch buttons */
+.btn-branding {
+  border: 1px solid var(--third-color);
+  background-color: var(--first-color);
+  color: var(--fourth-color);
+  font-family: var(--primary-font);
 }
