@@ -57,8 +57,10 @@ body {
   color: var(--fourth-color);
 }
 
-@media (max-width: 900px) {
+/* target changes made when screen is small*/
+@media (max-width: 576px) {
   #descriptions {
+    display: block;
     text-align: center;
   }
 }
