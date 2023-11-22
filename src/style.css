@@ -139,8 +139,6 @@ body {
 
   .link-buttons {
     padding-top: 2px;
-    /*to show the link buttons side by side when small */
-    display: flex;
   }
   .link-buttons a {
     font-size: 12px;
