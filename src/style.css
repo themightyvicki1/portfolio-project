@@ -14,6 +14,11 @@ body {
   padding-top: 80px;
 }
 
+footer {
+  font-family: var(--primary-font);
+  color: var(--fourth-color);
+}
+
 /*target the greeting message stored in a div */
 .hero {
   background-color: var(--second-color);
@@ -82,10 +87,28 @@ body {
   font-family: var(--primary-font);
 }
 
+/*target space between rows on index */
+.row {
+  padding: 30px 0;
+}
 /*target images on index page */
 .col-sm-6 img:hover {
   transform: scale(1.5);
   cursor: zoom-in;
+}
+.about-content {
+  font-family: var(--secondary-font);
+}
+
+.about-name {
+  font-family: var(--primary-font);
+}
+
+/* this was the only way to remove horizontal scrolling in mobile view on about */
+html,
+body {
+  overflow-x: hidden !important;
+  width: 100vw !important;
 }
 
 /* target changes made when screen is small*/
@@ -93,6 +116,10 @@ body {
   #descriptions {
     display: block;
     text-align: center;
+  }
+
+  .row {
+    padding: 0;
   }
 
   .hero {
@@ -112,6 +139,8 @@ body {
 
   .link-buttons {
     padding-top: 2px;
+    /*to show the link buttons side by side when small */
+    display: flex;
   }
   .link-buttons a {
     font-size: 12px;
@@ -121,8 +150,14 @@ body {
     margin: auto;
   }
 
-  body {
-    margin: 0 auto;
+  .vrg {
+    margin-top: 10px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+    margin: auto;
   }
 }
 
