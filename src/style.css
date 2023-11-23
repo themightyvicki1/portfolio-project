@@ -85,6 +85,7 @@ footer {
 /* target the project titles on homepage*/
 .project-title {
   font-family: var(--primary-font);
+  text-transform: capitalize;
 }
 
 /*target space between rows on index */
