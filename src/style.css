@@ -145,6 +145,16 @@ h3 {
   font-size: 22px;
 }
 
+#navbarNav a,
+.navbar-brand {
+  color: var(--third-color);
+}
+#navbarNav a:hover,
+.navbar-brand:hover,
+#navbarNav li a.active {
+  color: var(--fourth-color);
+}
+
 /* this was the only way to remove horizontal scrolling in mobile view on about */
 html,
 body {
