@@ -19,6 +19,10 @@ footer {
   color: var(--fourth-color);
 }
 
+h4 {
+  font-size: 38px;
+}
+
 /*target the greeting message stored in a div */
 .hero {
   background-color: var(--second-color);
@@ -27,7 +31,6 @@ footer {
   /*margin auto centered the div, it stopped being centered once i changed the width */
   margin: auto;
   width: 700px;
-  border: 2px solid var(--blackish-color);
 }
 
 /* target the h1 (my name) in hero div */
@@ -155,6 +158,26 @@ h3 {
   color: var(--fourth-color);
 }
 
+#icon-links a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 30px;
+  color: var(--fourth-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  background: var(--first-color);
+}
+
+#icon-links a:hover {
+  color: var(--whitish-color);
+  background: var(--fourth-color);
+}
+
+footer .contact-box {
+  background-color: var(--second-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
 /* this was the only way to remove horizontal scrolling in mobile view on about */
 html,
 body {
@@ -164,6 +187,15 @@ body {
 
 /* target changes made when screen is small*/
 @media (max-width: 576px) {
+  footer .contact-box {
+    margin-top: 30px;
+    padding: 25px;
+    width: 400px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
   #descriptions {
     display: block;
     text-align: center;
