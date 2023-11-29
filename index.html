@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Victoria Greer - front end developer</title>
+    <meta
+      name="description"
+      content="Victoria is a front-end developer based in Sacramento, California."
+    />
+    <title>Front-end developer - Victoria Greer</title>
     <!--link to bootstrap css and js -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -52,18 +56,37 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/index.html"
+                title="Home"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/html/about.html">About me</a>
+              <a
+                class="nav-link"
+                href="/html/about.html"
+                title="About Victoria Greer"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/html/projects.html">Projects</a>
+              <a
+                class="nav-link"
+                href="/html/projects.html"
+                title="Victoria's Projects"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/html/contact.html">Contact me</a>
+              <a
+                class="nav-link"
+                href="/html/contact.html"
+                title="Contact Victoria"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
@@ -79,9 +102,21 @@
 
         <div class="link-buttons">
           <!--link buttons-->
-          <a href="/html/about.html" class="btn btn-branding">About me</a>
-          <a href="/html/projects.html" class="btn btn-branding">Projects</a>
-          <a href="/html/contact.html" class="btn btn-branding">Contact me</a>
+          <a href="/html/about.html" class="btn btn-branding" title="About Me"
+            >About me</a
+          >
+          <a
+            href="/html/projects.html"
+            class="btn btn-branding"
+            title="Projects"
+            >Projects</a
+          >
+          <a
+            href="/html/contact.html"
+            class="btn btn-branding"
+            title="Contact Me"
+            >Contact me</a
+          >
         </div>
       </div>
     </div>
@@ -89,7 +124,7 @@
     <div class="container">
       <div class="row mt-3">
         <!--dont display image on a small screen but on large display in block-->
-        <div class="col-sm-6 d-none d-sm-block bg-primary text-center">
+        <div class="col-sm-6 d-none d-sm-block text-center">
           <img
             src="/images/weatherapp.png"
             alt="weather project"
@@ -106,11 +141,13 @@
           <a
             href="https://github.com/themightyvicki1/shecodes-plus-project"
             class="btn btn-branding outline"
+            title="Launch"
             >Launch <i class="fa-solid fa-arrow-right"></i
           ></a>
           <a
             href="https://lucent-gaufre-3b7475.netlify.app/"
             class="btn btn-branding outline"
+            title="View on Netlify"
             target="_blank"
             >View on Netlify <i class="fa-solid fa-arrow-right"></i
           ></a>
@@ -127,16 +164,18 @@
             href="https://github.com/themightyvicki1/world-clock"
             class="btn btn-branding outline"
             target="_blank"
+            title="Launch"
             >Launch <i class="fa-solid fa-arrow-right"></i
           ></a>
           <a
             href="https://luxury-macaron-492e9d.netlify.app/"
             class="btn btn-branding outline"
             target="_blank"
+            title="View on Netlify"
             >View on Netlify <i class="fa-solid fa-arrow-right"></i
           ></a>
         </div>
-        <div class="col-sm-6 d-none d-sm-block bg-primary text-center">
+        <div class="col-sm-6 d-none d-sm-block text-center">
           <img
             src="/images/dropdown.png"
             alt="world clock project"
@@ -147,7 +186,7 @@
         </div>
       </div>
       <div class="row mt-3">
-        <div class="col-sm-6 d-none d-sm-block bg-primary text-center">
+        <div class="col-sm-6 d-none d-sm-block text-center">
           <img
             src="/images/basicproject.png"
             alt="basic project"
@@ -158,19 +197,21 @@
         </div>
         <div class="col-sm-6" id="descriptions">
           <h2 class="project-title text-center">
-            Basic Project <i class="fa-solid fa-cookie-bite"></i>
+            Landing Page Project <i class="fa-solid fa-cookie-bite"></i>
           </h2>
           <p class="project-description text-center">Info for this project</p>
           <a
             href="https://github.com/themightyvicki1/basic-project"
             class="btn btn-branding outline"
             target="_blank"
+            title="Launch"
             >Launch <i class="fa-solid fa-arrow-right"></i
           ></a>
           <a
             href="https://tubular-sawine-2ea664.netlify.app/"
             class="btn btn-branding outline"
             target="_blank"
+            title="View on Netlify"
             >View on Netlify <i class="fa-solid fa-arrow-right"></i
           ></a>
         </div>
@@ -182,17 +223,30 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact me</a>
+            <a
+              href="/html/contact.html"
+              class="btn btn-branding"
+              title="Contact Me"
+              >Contact Me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mt-5" id="icon-links">
-          <a href="mailto:victoria.greer861@gmail.com"
+          <a
+            href="mailto:victoria.greer861@gmail.com"
+            title="victoria.greer861@gmail.com"
             ><i class="fa-regular fa-envelope"></i
           ></a>
-          <a href="https://github.com/themightyvicki1" target="_blank"
+
+          <a href="/html/contact.html"
+            ><i class="fa-solid fa-phone" title="(916) 397-0223"></i
+          ></a>
+          <a
+            href="https://github.com/themightyvicki1"
+            target="_blank"
+            title="https://github.com/themightyvicki1"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="#"><i class="fa-solid fa-phone"></i></a>
         </div>
       </footer>
     </div>

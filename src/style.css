@@ -67,6 +67,12 @@ h4 {
   color: var(--fourth-color);
 }
 
+.link-buttons a:hover,
+.btn-branding:hover {
+  color: var(--first-color);
+  background-color: var(--third-color);
+}
+
 /*target the col with words not image as a whole */
 #descriptions {
   text-align: center;
@@ -151,6 +157,7 @@ h3 {
 #navbarNav a,
 .navbar-brand {
   color: var(--third-color);
+  text-transform: capitalize;
 }
 #navbarNav a:hover,
 .navbar-brand:hover,
@@ -171,6 +178,11 @@ h3 {
 #icon-links a:hover {
   color: var(--whitish-color);
   background: var(--fourth-color);
+}
+
+#project-h1,
+.project-header {
+  color: var(--blackish-color);
 }
 
 footer .contact-box {
