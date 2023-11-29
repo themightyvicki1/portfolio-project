@@ -31,6 +31,7 @@ h4 {
   /*margin auto centered the div, it stopped being centered once i changed the width */
   margin: auto;
   width: 700px;
+  border-radius: 10px;
 }
 
 /* target the h1 (my name) in hero div */
@@ -189,6 +190,23 @@ h3 {
   color: var(--blackish-color);
 }
 
+.this-project {
+  border: 2px solid #77628c;
+  border-radius: 4px;
+  max-width: 700px;
+  font-size: 20px;
+  font-family: var(--primary-font);
+  padding: 20px 20px;
+  margin: auto;
+  background-color: #71a0a5;
+  color: var(--blackish-color);
+  line-height: 1;
+}
+
+#this-project-info {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+}
 footer .contact-box {
   background-color: var(--second-color);
   padding: 30px 120px;
