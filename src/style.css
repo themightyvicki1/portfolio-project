@@ -219,6 +219,10 @@ body {
   width: 100vw !important;
 }
 
+.travel-images {
+  display: grid;
+}
+
 /* target changes made when screen is small*/
 @media (max-width: 576px) {
   footer .contact-box {
