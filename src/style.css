@@ -139,7 +139,7 @@ h4 {
   font-size: 14px;
 }
 
-.col-md-3 img:hover {
+.col-md-4 img:hover {
   transform: scale(2);
   cursor: zoom-in;
   padding: 20px 20px;
@@ -217,10 +217,6 @@ html,
 body {
   overflow-x: hidden !important;
   width: 100vw !important;
-}
-
-.travel-images {
-  display: grid;
 }
 
 /* target changes made when screen is small*/
