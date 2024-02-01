@@ -123,6 +123,46 @@
 
     <div class="container">
       <div class="row mt-3">
+        <!--dont display image on a small screen but on large display in block-->
+        <div class="col-sm-6 d-none d-sm-block text-center">
+          <img
+            src="/images/reactWeather.png"
+            alt="react weather project"
+            title="react weather project"
+            width="60%"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-sm-6" id="descriptions">
+          <h2 class="project-title text-center">
+            React Weather Project <i class="fa-solid fa-cloud"></i>
+          </h2>
+          <p class="project-description text-center">
+            This project was my introduction to React. It utilizes a weather API
+            in order to give the weather for any city. It also displays a future
+            forecast of seven days plus additional information such as the
+            humidity and wind speed. I had two main problems with this project:
+            the date was not displaying the current minutes and I did not like
+            the flow of the code. Since it is written in React, it has various
+            components that control different aspects of the program. My first
+            attempt at this project, the code felt chaotic. I ended up scrapping
+            that project and starting over from scratch. Starting over, I was
+            also able to fix any API issues and that fixed the date issue. But I
+            was also able to separate the code into different components in a
+            way that made more sense to me.
+          </p>
+
+          <a
+            href="https://chipper-paprenjak-4f9564.netlify.app/"
+            class="btn btn-branding outline"
+            title="View on Netlify"
+            target="_blank"
+            >View on Netlify <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="row mt-3">
         <div class="col-sm-6" id="descriptions">
           <h2 class="project-title text-center">
             Travel Project <i class="fa-solid fa-plane"></i>
